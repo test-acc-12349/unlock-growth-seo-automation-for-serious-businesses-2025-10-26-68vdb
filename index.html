@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unlock Growth with SEO Automation for Serious Businesses. Scale your online presence with intelligent AI-powered solutions.">
+    <meta name="keywords" content="SEO, automation, AI, content optimization, keyword research, digital marketing">
+    <meta name="author" content="NXSYS">
+    <title>Unlock Growth: SEO Automation for Serious Businesses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+        }
+        
+        .faq-answer {
+            transition: all 0.3s ease;
+            max-height: 500px;
+            overflow: hidden;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-rocket text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-gray-900">NXSYS</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300">Features</a>
+                <a href="#benefits" class="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300">Benefits</a>
+                <a href="#faq" class="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300">FAQ</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300">Testimonials</a>
+                <a href="https://test.com" class="px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-gray-900 text-xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
+                <div class="px-4 py-4 space-y-3">
+                    <a href="#features" class="block text-gray-700 hover:text-purple-600 font-medium py-2 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="block text-gray-700 hover:text-purple-600 font-medium py-2 transition-colors duration-300">Benefits</a>
+                    <a href="#faq" class="block text-gray-700 hover:text-purple-600 font-medium py-2 transition-colors duration-300">FAQ</a>
+                    <a href="#testimonials" class="block text-gray-700 hover:text-purple-600 font-medium py-2 transition-colors duration-300">Testimonials</a>
+                    <a href="https://test.com" class="block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-semibold text-center hover:shadow-lg transition-all duration-300">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-hero text-white py-24 md:py-32 lg:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">Unlock Growth: SEO Automation for Serious Businesses</h1>
+                <p class="text-lg md:text-xl leading-relaxed mb-8 text-gray-100">Ditch manual SEO and scale your online presence with intelligent AI-powered automation. Transform your search engine rankings, free up your team, and maximize every dollar spent on SEO.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://test.com" class="px-8 py-4 bg-white text-purple-600 font-bold rounded-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center">Start Your Free Trial</a>
+                    <a href="#features" class="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-purple-600 transition-all duration-300 transform hover:scale-105 text-center">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-28 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Powerful Features Built for Modern SEO</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Our AI-driven platform combines cutting-edge technology with practical SEO expertise to deliver results that matter.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: AI-Powered Keyword Research -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">AI-Powered Keyword Research</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">Leverage advanced artificial intelligence to discover high-intent keywords your competitors are missing. Our proprietary algorithms analyze search patterns, user behavior, and market trends to identify opportunities with the highest conversion potential. Get detailed metrics including search volume, competition level, and seasonal trends all in one intuitive dashboard.</p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Real-time keyword analysis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Competitor keyword tracking</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Intent classification</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Automated Content Optimization -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-wand-magic-sparkles text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Automated Content Optimization</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">Transform your existing content into SEO powerhouses with our intelligent optimization engine. Our system analyzes top-ranking pages, identifies content gaps, and provides specific recommendations for on-page elements. From meta tags to header structure to keyword placement, every optimization is data-driven and proven to improve rankings.</p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>On-page SEO audits</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Content gap analysis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Meta tag generation</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Real-time Performance Tracking -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Real-time Performance Tracking</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">Monitor your SEO performance with comprehensive, real-time analytics and reporting. Track keyword rankings across all major search engines, monitor traffic trends, analyze user behavior, and measure ROI with precision. Our intuitive dashboards provide actionable insights that help you make data-driven decisions faster.</p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Live ranking tracking</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>Traffic analytics</li>
+                        <li class="flex items-center"><i class="fas fa-check text-purple-600 mr-2"></i>ROI measurement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Real Results for Your Business</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">See how our SEO automation platform transforms businesses of all sizes.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Benefit 1: Achieve Top Rankings Faster -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-purple-200 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-trophy text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Achieve Top Rankings Faster</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Our clients see an average 40% improvement in keyword rankings within the first 90 days. By automating the tedious optimization tasks and focusing on high-impact strategies, you'll climb search engine results faster than traditional manual SEO approaches. Start ranking for your target keywords and watch your organic traffic soar.</p>
+                </div>
+
+                <!-- Benefit 2: Free Up Your Team's Time -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-purple-200 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-clock text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Free Up Your Team's Time</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Eliminate hours of manual keyword research, content optimization, and performance analysis. Our automation handles the repetitive work, allowing your team to focus on strategy, creative content creation, and high-value business initiatives. Reclaim approximately 20 hours per week that your team currently spends on SEO grunt work.</p>
+                </div>
+
+                <!-- Benefit 3: Maximize ROI on SEO Spend -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-purple-200 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-chart-pie text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Maximize ROI on SEO Spend</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">Every dollar you invest in SEO should deliver measurable returns. Our platform helps you identify the most profitable keywords, optimize your content strategy, and track every conversion. See exactly which SEO efforts drive revenue, and scale what works while eliminating what doesn't.</p>
+                </div>
+            </div>
+
+            <!-- Additional Benefits Grid -->
+            <div class="bg-gray-50 rounded-xl p-8 md:p-12">
+                <h3 class="text-2xl font-bold text-gray-900 mb-8">Why Choose Our Platform?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-8 w-8 rounded-md bg-gradient-to-br from-purple-600 to-pink-600">
+                                <i class="fas fa-check text-white"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Enterprise-Grade Security</h4>
+                            <p class="text-gray-600 mt-1">Your data is protected with industry-leading encryption and compliance standards.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-8 w-8 rounded-md bg-gradient-to-br from-purple-600 to-pink-600">
+                                <i class="fas fa-check text-white"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">24/7 Expert Support</h4>
+                            <p class="text-gray-600 mt-1">Our SEO specialists are always available to help you succeed.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-8 w-8 rounded-md bg-gradient-to-br from-purple-600 to-pink-600">
+                                <i class="fas fa-check text-white"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Seamless Integration</h4>
+                            <p class="text-gray-600 mt-1">Works with your existing tools and workflows without disruption.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-8 w-8 rounded-md bg-gradient-to-br from-purple-600 to-pink-600">
+                                <i class="fas fa-check text-white"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Continuous Updates</h4>
+                            <p class="text-gray-600 mt-1">Stay ahead with regular feature releases and algorithm updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-28 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Trusted by Leading Businesses</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">See what our customers have to say about their experience with our SEO automation platform.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">"We implemented this platform three months ago and our organic traffic has increased by 156%. The AI-powered keyword research alone has saved us countless hours of manual work. Our team can now focus on creating amazing content instead of getting bogged down in technical SEO tasks. This is a game-changer for any serious business."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            JC
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Jessica Chen</p>
+                            <p class="text-sm text-gray-600">Marketing Director, TechFlow Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">"The real-time performance tracking has completely transformed how we approach SEO. We can now see exactly which keywords drive conversions and which ones need optimization. The automated content recommendations have helped us improve our on-page SEO significantly. Our rankings have improved for 78% of our target keywords in just 4 months."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            MR
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Michael Rodriguez</p>
+                            <p class="text-sm text-gray-600">SEO Manager, Digital Solutions Co.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">"Best investment we've made for our e-commerce business. The platform identified high-intent keywords we didn't even know existed, and we've captured 42 new top-10 rankings. Our ROI has increased by 230% and we're now getting qualified traffic that actually converts. The support team is incredibly responsive too."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            SL
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Sarah Lopez</p>
+                            <p class="text-sm text-gray-600">Founder, Artisan Goods Online</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">"As an agency, we've been recommending this platform to all our clients. The automation features allow us to manage more accounts without hiring additional staff. Clients love the transparent reporting and clear ROI metrics. We've already seen an average 35% increase in organic revenue across our client portfolio."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            DK
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">David Kim</p>
+                            <p class="text-sm text-gray-600">Agency Owner, Growth Marketing Partners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">About NXSYS</h2>
+            </div>
+
+            <div class="max-w-3xl mx-auto space-y-6">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    NXSYS was founded in 2018 by a team of SEO specialists and software engineers who saw a critical gap in the market. Traditional SEO agencies were expensive, slow, and difficult to scale. Meanwhile, DIY tools were fragmented and required expertise most businesses didn't have. We set out to build a platform that would democratize access to enterprise-grade SEO automation, making it affordable and accessible for businesses of all sizes. Starting with a small team of 5 in our Sydney office, we've grown to serve over 2,000 clients across 15 countries, helping them reclaim millions of dollars in lost organic revenue.
+                </p>
+
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Our mission is simple: empower businesses to compete and win in organic search without needing a team of expensive SEO consultants. We believe that intelligent automation, combined with human expertise, can transform how companies approach digital marketing. We're committed to continuous innovation, staying ahead of algorithm changes, and providing our clients with tools and insights that deliver real, measurable results. At NXSYS, we measure our success by your success—every ranking improvement, every traffic increase, and every conversion represents our shared achievement.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">2,000+</div>
+                    <p class="text-gray-600">Active Clients Worldwide</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">15+</div>
+                    <p class="text-gray-600">Countries Served</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">$50M+</div>
+                    <p class="text-gray-600">Organic Revenue Generated</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-28 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Find answers to common questions about our SEO automation platform.</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-semibold text-gray-900 text-left">How long does it take to see results?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">Most of our clients see initial improvements within 2-4 weeks, with significant results by the 90-day mark. The timeline depends on factors like your current SEO status, competition level, and how aggressively you implement our recommendations. We typically see a 40% average improvement in keyword rankings within the first three months. Some clients in less competitive niches see results even faster, while highly competitive industries may take slightly longer. Our real-time tracking dashboard shows you progress every single day.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-semibold text-gray-900 text-left">Can I use this if I don't have technical SEO knowledge?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">Absolutely! Our platform is designed to be user-friendly and accessible to everyone, regardless of technical expertise. We provide step-by-step guides, video tutorials, and our dedicated support team is available 24/7 to help you get started. Our AI makes intelligent recommendations that you can implement with a single click. Additionally, we offer personalized onboarding sessions and regular strategy calls with our SEO specialists to ensure you're getting the most out of the platform. Many of our most successful clients had zero SEO experience when they started.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-semibold text-gray-900 text-left">What if I'm not satisfied with the results?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">We're confident in our platform's effectiveness, which is why we offer a 60-day money-back guarantee. If you're not seeing the results you expected after two months, we'll refund your investment, no questions asked. However, we also offer a comprehensive success program where our team works with you to optimize your strategy and ensure you're achieving your goals. We've found that most dissatisfaction comes from unrealistic expectations or improper implementation, which our support team can help address.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-semibold text-gray-900 text-left">How many websites can I manage with one account?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">Our pricing is based on the number of websites you want to manage. You can add as many websites as you need to your account, and we offer flexible plans for agencies and enterprises managing multiple client sites. Each website gets its own dedicated workspace, keyword tracking, and performance analytics. Our Enterprise plan is designed specifically for agencies and large organizations managing dozens or even hundreds of websites. Contact our sales team to discuss a custom plan that fits your specific needs.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-semibold text-gray-900 text-left">Is my data secure and private?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">Security is our top priority. We use enterprise-grade encryption for all data in transit and at rest, comply with GDPR and CCPA regulations, and undergo regular third-party security audits. Your data is stored on secure servers with redundant backups and disaster recovery protocols. We never sell your data to third parties and maintain strict access controls. You can view our detailed security documentation and certifications on our security page. We're also SOC 2 Type II certified, ensuring the highest standards of data protection and privacy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 md:py-28 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-900 to-pink-900 opacity-85"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">Ready to Transform Your SEO?</h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-8 max-w-2xl mx-auto">Join thousands of businesses that have already discovered the power of AI-driven SEO automation. Start your free trial today and see results within weeks.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://test.com" class="px-8 py-4 bg-white text-purple-600 font-bold rounded-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center btn-primary">Start Your Free Trial</a>
+                <a href="#faq" class="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-purple-600 transition-all duration-300 transform hover:scale-105 text-center btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1: Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-rocket text-white text-sm"></i>
+                        </div>
+                        <span class="text-lg font-bold text-white">NXSYS</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">Empowering businesses with intelligent SEO automation to unlock growth and maximize online visibility.</p>
+                </div>
+
+                <!-- Column 2: Product -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                        <li><a href="https://test.com" class="text-gray-400 hover:text-white transition-colors duration-300">Get Started</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Company -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Legal -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="bg-gray-800 rounded-lg p-6 mb-8">
+                <h4 class="text-white font-semibold mb-4">Get in Touch</h4>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope text-purple-600 mr-3"></i>
+                        <a href="mailto:ecomm@nxsys.com.au" class="text-gray-300 hover:text-white transition-colors duration-300">ecomm@nxsys.com.au</a>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-phone text-purple-600 mr-3"></i>
+                        <span class="text-gray-300">+61 2 XXXX XXXX</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="border-t border-gray-800 pt-8 mb-8">
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Facebook">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 NXSYS. All rights reserved. | Empowering businesses with intelligent SEO automation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
